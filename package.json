@@ -1,0 +1,30 @@
+{
+  "name": "shadow-reframe-antizer",
+  "version": "0.0.1",
+  "description": "Starter for shadow-cljls, antizer and re-frame projects",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdhorwitz/shadow-reframe-antizer"
+  },
+  "author": {
+    "name": "Josh Horwitz",
+    "email": "joshua.d.horwitz@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "shadow-cljs watch app;",
+    "release": "shadow-cljs release app;",
+    "server": "shadow-cljs server;",
+    "clean": "rm -rf target; rm -rf public/js"
+  },
+  "dependencies": {
+    "create-react-class": "^15.6.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "devDependencies": {
+    "shadow-cljs": "^2.4.33",
+    "react-flip-move": "^3.0.2",
+    "react-highlight.js": "^1.0.7"
+  }
+}
