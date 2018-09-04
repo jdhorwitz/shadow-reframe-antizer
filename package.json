@@ -18,6 +18,7 @@
     "clean": "rm -rf target; rm -rf public/js"
   },
   "dependencies": {
+    "antd": "^3.9.1",
     "create-react-class": "^15.6.3",
     "react": "^16.3.2",
     "react-dom": "^16.3.2"
