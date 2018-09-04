@@ -22,6 +22,7 @@
 (defn home
   []
   [:div "home"])
+
 (defn about
   []
   [:div "about"])
@@ -53,7 +54,7 @@
      {:on-click #(rf/dispatch [:decrement])}
      "-"]
     [:button {:disabled true} counter]
-    [:button 
+    [:button
      {:on-click #(rf/dispatch [:increment])}
      "+"]]))
 
