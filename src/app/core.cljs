@@ -2,8 +2,8 @@
   (:require [reagent.core :as r]
             [re-frame.core :as rf]
             [app.router :as router]
-            [app.events] ;; These two are required so that 
-            [app.subs]   ;; the compailer loads them
+            [app.events]
+            [app.subs]
             [app.views :as views]))
 
 (defn ^:dev/after-load start

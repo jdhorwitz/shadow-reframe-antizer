@@ -1,15 +1,17 @@
-# shadow-cljs, proto-repl, re-frame template
+# shadow-cljs, antizer and re-frame starter
+
+## Lots of inspiration/theft from [Jacek Schae Template](https://github.com/jacekschae/shadow-re-frame)
 
 `shadow-cljs` is a build tool for ClojureScript.
 
-`proto-repl` is a Clojure(Script) dev env for [Atom](https://atom.io/)
+`antizer` is a ClojureScript library for using Ant Design Components. [Antizer](https://github.com/priornix/antizer)
 
 `re-frame` is a is a pattern for writing SPAs in ClojureScript, using Reagent. [Reagent](https://github.com/reagent-project/reagent).
 
 ## Setup And Run
 #### Copy repository
 ```shell
-git clone https://github.com/jacekschae/shadow-re-frame.git && cd shadow-re-frame
+git clone https://github.com/jdhorwitz/shadow-reframe-antizer.git && cd shadow-reframe-antizer
 ```
 
 #### Install dependencies

@@ -9,14 +9,14 @@
    [:h1 "A template for re-frame apps"]
    [ant/button {:on-click #(ant/message-info "Hello Reagent!")} "Click me"]
    [:div
-    [:ul 
+    [:ul
      [:li
       [:a {:href (router/url-for :home)} "Home"]]
      [:li
       [:a {:href (router/url-for :about)} "About"]]
-     [:li 
+     [:li
       [:a {:href (router/url-for :topics)} "Topics"]]
-     [:li 
+     [:li
       [:a {:href (router/url-for :counter)} "Counter"]]]]])
 
 (defn home
