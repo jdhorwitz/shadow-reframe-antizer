@@ -1,7 +1,5 @@
 # shadow-cljs, antizer and re-frame starter
 
-## Lots of inspiration/theft from [Jacek Schae Template](https://github.com/jacekschae/shadow-re-frame)
-
 `shadow-cljs` is a build tool for ClojureScript.
 
 `antizer` is a ClojureScript library for using Ant Design Components. [Antizer](https://github.com/priornix/antizer)
